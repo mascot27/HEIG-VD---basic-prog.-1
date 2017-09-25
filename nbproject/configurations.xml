@@ -15,6 +15,7 @@
       <itemPath>Exercice1_3.cpp</itemPath>
       <itemPath>Exercice1_4.cpp</itemPath>
       <itemPath>Exercice1_5.cpp</itemPath>
+      <itemPath>Exercice1_6.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -73,6 +74,8 @@
       <item path="Exercice1_4.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Exercice1_5.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Exercice1_6.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>

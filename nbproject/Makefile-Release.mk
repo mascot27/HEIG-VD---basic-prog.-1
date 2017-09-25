@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Exercice1_3.o \
 	${OBJECTDIR}/Exercice1_4.o \
 	${OBJECTDIR}/Exercice1_5.o \
+	${OBJECTDIR}/Exercice1_6.o \
 	${OBJECTDIR}/main.o
 
 
@@ -79,6 +80,11 @@ ${OBJECTDIR}/Exercice1_5.o: Exercice1_5.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Exercice1_5.o Exercice1_5.cpp
+
+${OBJECTDIR}/Exercice1_6.o: Exercice1_6.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -std=c++11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Exercice1_6.o Exercice1_6.cpp
 
 ${OBJECTDIR}/main.o: main.cpp
 	${MKDIR} -p ${OBJECTDIR}
