@@ -14,14 +14,12 @@
 #include <iostream>
 #include <cstdlib>
 
-using namespace std;
-
 /*
  * 
  */
 int main() {
+    using namespace std;
     
-    cout << "Hello Coco Channel <3" << endl;
-    
+    cout << "Hello Coco Channel <3" << endl << endl;
     return 0;
 }
